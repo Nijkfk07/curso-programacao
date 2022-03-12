@@ -1,0 +1,257 @@
+/* Estilos Gerais */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Header */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #223759;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.header_menu ul li a {
+  color: #ecc601;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+.header_menu ul li a.menu_ativo {
+  color: #fff;
+}
+
+.logotipo_escola {
+  margin-left: 0px;
+}
+
+.logotipo_escola img {
+  border-radius: 50px;
+  width: auto;
+  height: 80px;
+}
+
+/* Introdução */
+
+.introducao {
+  width: 100%;
+  height: 480px;
+  background: url('../img/fundo-intro.png') no-repeat center;
+  background-size: cover;
+  margin-top: 110px;
+  padding-top: 80px;
+}
+
+.text-intro {
+  width: auto;
+  height: 360px;
+  padding: 0 10px;
+  background: rgba(103, 125, 160, 0.75);
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px #223759;
+  text-align: center;
+}
+
+.text-intro h2 {
+ /*coloca um espaçamento no texto*/
+  padding: 20px 20px;
+  /*alinha o texto no centro*/
+  text-align: center;
+  /*peso da fonte*/
+  font-weight: bold;
+ /*aumenta a fonte*/
+  font-size: 36px;
+  /*altura da linha do texto*/
+  line-height: 40px;
+  /*cor da fonte*/
+  color: #ecc601;
+}
+
+.text-intro p {
+  /*coloca um espaço entre o titulo e o texto*/
+  padding: 20px 20px 30px 0px;
+  /*define a largura da forma*/
+  width: 400px;
+  
+  height: auto;
+  /*alinha o texto*/
+  margin: 0 auto;
+  /*peso da fonte*/
+  font-weight: normal;
+ /*aumenta a fonte*/
+  font-size: 24px;
+  /*espaçamento entre as letras*/
+  line-height: 30px;
+  /*cor da fonte*/
+  color: #ecc601;
+}
+
+.img-intro {
+  /*aumenta a imagem da introduçao*/
+  width: 360px;
+  /*define a altura da imagem*/
+  height: 360px;
+  /*coloca um espaço entre a imagem e o texto*/
+  padding: 0 10px;
+  /*coloca imagem*/
+  background: url(../img/img-intro.jpg);
+  /*ajustao tamanho da imagem*/
+  background-size: cover;
+  /*muda a cor da mini sombra*/
+  box-shadow: 1px 1px 4px #223759;
+  /*arredonda as bordas*/
+  border-radius: 10px;
+}
+
+.informativo {
+  /*ajusta o tamanho da tela*/
+  width: 100%;
+  /*muda a cor do fundo da tela*/
+  background: #f2f2f2;
+  /*alinha o texto no centro*/
+  text-align: center;
+  /*coloca um espaço entre o texto e a introduçao*/
+  padding: 60px 0;
+}
+
+.informativo .subtitulo {
+  /*muda a cor da fonte*/
+  color: #223759;
+  /*deixa em negrito*/
+  font-weight: bold;
+  /*aumenta o texto*/
+  font-size: 36px;
+  /*altura da linha do texto*/
+  line-height: 40px;
+}
+
+.informativo_lista li {
+  /*ajusta o tamanho da tela*/
+  width: 100%;
+  
+  height: auto;
+  /*coloca um espaço entre o texto e a imagem*/
+  margin: 30px auto;
+}
+
+.informativo_lista li img {
+  /*alinha a imagem*/
+  margin: 0 auto;
+  /*coloca uma mini sombra*/
+  box-shadow: 1px 1px 4px #cccccc;
+}
+
+.hide {
+  /*esconde imagens*/
+  display: none;
+}
+
+/* footer */
+.footer {
+  /*ajusta o tamanho da tela*/
+  width: 100%;
+  /*coloca cor no rodapé*/
+  background: #223759;
+  /*altera a cor da fonte*/
+  color: #fff;
+  /*coloca um espaçamento*/
+  padding: 20px 0;
+}
+
+.footer h3 {
+  /*aumenta a fonte*/
+  font-size: 18px;
+  /*coloca um espaço entre os textos e o titulo*/
+  line-height: 25px;
+  /*coloca uma cor no tetxo*/
+  color: #ecc601;
+  /*coloca todo o texto em maiusculo*/
+  text-transform: uppercase;
+  /*da um espaçamento entre as letras*/
+  letter-spacing: 0.05em;
+  /*muda pra negrito*/
+  font-weight: bold;
+}
+
+.footer_contato ul li {
+  /*diminui o texto*/
+  font-size: 14px;
+  /*espaçamento entre os textos*/
+  line-height: 20px;
+  /* troca a fonte*/
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.footer_redes ul li {
+ /* coloca a forma de um quadrado*/
+  display: inline-block;
+ /*coloca um espaçamento entre os dois quadrados*/
+  margin-right: 10px;
+}
+
+.footer_redes ul li a {
+ /* coloca a forma de um quadrado amarelo */ 
+  border: 3px solid #ecc601;
+ /* alinha a forma */
+  display: block;
+ /* coloca um espaçamento dentro na forma*/
+  padding: 10px;
+}
+
+.footer_redes ul li a:hover {
+ /* substitui a cor amarela pela branca*/
+  border-color: #fff;
+}
+
+.copy {
+ /* alinha o texto */
+  text-align: center;
+ /* ajusta o tamanho na tela*/
+  width: 100%;
+ /* muda a cor do rodapé*/
+  background: #ecc601;
+ /* coloca um espaçamento na tela*/
+  padding: 10px 0;
+}
+
+.copy p {
+ /* deixa fonte negrito*/
+  font-weight: bold;
+ /* muda a fonte */
+  font-family: Arial, Helvetica, sans-serif;
+ /* muda a cor da fonte */
+  color: #223759;
+}
